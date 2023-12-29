@@ -55,7 +55,7 @@ laoduo约投顾，年费4700元----------- 投资顾问
 from langdetect import detect
 from langdetect import detect_langs
 
-s1 = "本篇博客主要介绍两款语言探测工具，用于区分文本到底是什么语言，"
+s1 = "本篇博客主要介绍两款语言探测工具，
 s2 = 'We are pleased to introduce today a new technology'
 print(detect(s1))
 print(detect(s2))
